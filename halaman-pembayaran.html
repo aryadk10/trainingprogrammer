@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="assets/styles.css" />
+</head>
+
+<body>
+    <div class="history">
+        <a href="index.html">Home</a> /
+        <a href="halaman-pilih-kursi.html">Pemesanan</a> /
+        Bayar
+    </div>
+    <div class="d-flex flex-row ">
+        <section class="w-50">
+            <div class="container">
+                <div class="accordion" id="accordionPanelsStayOpenExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                aria-controls="panelsStayOpen-collapseOne">
+                                Personal Data
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                            aria-labelledby="panelsStayOpen-headingOne">
+                            <div class="accordion-body">
+                                <div class="mb-3">
+                                    <label for="formGroupExampleInput" class="form-label">Nama</label>
+                                    <input type="text" class="form-control" id="email" placeholder="Masukan Nama">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="formGroupExampleInput2" class="form-label">Email</label>
+                                    <input type="email" class="form-control" id="email" placeholder="Masukan Email">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="formGroupExampleInput2" class="form-label">No Hp</label>
+                                    <input type="text" class="form-control" id="nohp" placeholder="Masukan no hp">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseTwo">
+                                Metode Pembayaran
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse show"
+                            aria-labelledby="panelsStayOpen-headingTwo">
+                            <div class="accordion-body">
+                                <h6>Transfer Bank</h6>
+                                <div class="list-group mb-3">
+                                    <a href="#" class="list-group-item list-group-item-action active"
+                                        aria-current="true">
+                                        Transfer BCA
+                                    </a>
+                                    <a href="#" class="list-group-item list-group-item-action">Transfer Mandiri</a>
+                                    <a href="#" class="list-group-item list-group-item-action">Transfer BRI</a>
+                                </div>
+                                <h6>E-wallet</h6>
+                                <div class="list-group mb-3">
+                                    <a href="#" class="list-group-item list-group-item-action" aria-current="true">
+                                        Shope pay
+                                    </a>
+                                    <a href="#" class="list-group-item list-group-item-action">Gopay</a>
+                                    <a href="#" class="list-group-item list-group-item-action">Ovo</a>
+                                </div>
+                                <h6>Lain-lain</h6>
+                                <div class="list-group">
+                                    <a href="#" class="list-group-item list-group-item-action" aria-current="true">
+                                        Indomart
+                                    </a>
+                                    <a href="#" class="list-group-item list-group-item-action">Alfamart</a>
+                                    <a href="#" class="list-group-item list-group-item-action">QRIS</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class=" w-50">
+            <div class="container d-flex flex-column">
+                <div class="fs-2">
+                    Invoice #IN001
+                </div>
+                <div class="fs-6 fw-lighter mt-1">
+                    26/10/2023
+                </div>
+                <div class="d-flex mt-2">
+                    <div class="fw-lighter">
+                        4x Tiket
+                    </div>
+                    <div class="ms-auto">
+                        Rp. 200.000
+                    </div>
+                </div>
+                <div class="d-flex mt-2">
+                    <div class="fw-lighter">
+                        PPN 10%
+                    </div>
+                    <div class="ms-auto">
+                        Rp. 2000
+                    </div>
+                </div>
+                <div class="d-flex mt-2">
+                    <div class="fw-bold">
+                        Total
+                    </div>
+                    <div class="ms-auto fw-bold">
+                        Rp. 202.000
+                    </div>
+                </div>
+                <div class="d-grid gap-2 mt-4">
+                    <a class="btn btn-primary" href="halaman-thankspage.html" role="button">Bayar</a>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
